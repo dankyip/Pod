@@ -1,0 +1,408 @@
+ body {
+    margin: 0;
+    background-color: #121725;
+    font-family: chivo;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pod-logo {
+    position: absolute;
+    top: 102px;
+    left: 12.31%;
+}
+
+.image-host {
+    position: absolute;
+    height: 591px;
+    width: 59%;
+    right: 0;
+    top: 130px;
+}
+
+.container {
+    position: relative;
+    top: 197px;
+    background-color: #121725;
+    width: 47%;
+    height: 578px;
+    padding-left: 12.31%;
+    padding-right: 47px;
+}
+
+.intro-text {
+    padding-top: 41px;
+    font-size: 3.25rem;
+    line-height: 3.87rem;
+    color: #54e6af;
+}
+
+span {
+    color: #ffffff;
+}
+
+.paragraph-text {
+    font-size: 1.12rem;
+    line-height: 28px;
+    padding-right: 185px;
+    padding-bottom: 20px;
+    color: #c2cbe5;
+}
+
+.cta {
+    padding-bottom: 50px;
+}
+
+.form {
+    width: 427px;
+    height: 56px;
+    font-family: chivo;
+    font-size: .87rem;
+    line-height: 28px;
+    padding-left: 32px;
+    border-radius: 28px;
+    border-color: #2c344b;
+    background: #2c344b;
+}
+
+button {
+    background-color: #54e6af;
+    border-radius: 28px;
+    border-color: #54e6af;
+    font-family: chivo;
+    font-size: .87rem;
+    line-height: 28px;
+    margin-left: -170px;
+    height: 46px;
+    width: 162px;
+}
+
+.pattern-dots {
+    position: absolute;
+    right: 0;
+    bottom: -122px;
+}
+
+.spotify,
+.apple-podcast,
+.google-podcasts {
+    padding-right: 25px;
+}
+
+@media only screen and (max-width: 1288px) {
+    .intro-text {
+        font-size: 48px;
+        line-height: 56px;
+        width: 108%;
+        padding-top: 54px; 
+    }
+
+    .paragraph-text {
+        width: 83%;
+    }
+}
+
+@media only screen and (max-width: 1112px) {
+    .container {
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 1090px)
+{
+    .pod-logo {
+        left: 10.31%;
+    }
+    
+    .container {
+        width: 50%;
+        padding-left: 10.31%;
+    }
+}
+
+@media only screen and (max-width: 1047px)
+{
+    .pod-logo {
+        left: 8.31%;
+    }
+
+    .container {
+        width: 52%;
+        padding-left: 8.31%;
+    }
+}
+
+@media only screen and (max-width: 1007px)
+{
+    .pod-logo {
+        left: 6.31%;
+    }
+
+    .container {
+        width: 55%;
+        padding-left: 6.31%;
+    }
+}
+
+@media only screen and (max-width: 953px)
+{
+    .container {
+        width: 60%;
+    }
+
+    .image-host {
+        width: 48%;
+    }
+
+    .sponsors {
+        width: 112%;
+    }
+
+    .spotify, 
+    .apple-podcast, 
+    .google-podcasts {
+        padding-right: 3%;
+    }
+
+    .pattern-dots {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 798px) 
+{
+    .pod-logo {
+        top: 50px;
+        left: 39px;
+    }
+    
+    .image-host {
+        top: 0;
+    }
+
+    .container {
+        top: 153px;
+        width: 69%;
+        padding-left: 39px;  
+    }
+
+    .pattern-dots {
+        display: flex;
+        bottom: -241px;
+    }
+}
+
+@media only screen and (max-width: 696px)
+{
+    .paragraph-text{
+        padding-right: 168px;
+    }
+    
+    .cta {
+        position: absolute;
+    }
+
+    .form {
+        width: 400px;
+    }
+
+    .sponsors {
+        padding-top: 23%;
+        width: 133%;
+    }
+
+    .spotify, 
+    .apple-podcast, 
+    .google-podcasts {
+        padding-right: 2%;
+    }
+
+    .pocket-casts {
+        width: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 500px)
+{
+    main {
+        padding-top: 6%;
+    }
+    
+    .logo-container {
+        width: 35%;
+        margin: 0 auto;
+    }
+    
+    .pod-logo {
+        position: static;
+        padding-top: 62px;
+        width: 167.85px;
+    }
+    
+    .image-host {
+        height: 180%;
+        width: 157%;
+        opacity: 0.1;
+    }
+    
+    .container {
+        background: none;
+        position: static;
+        padding-left: 6.31%;;
+    }
+
+    .intro-text {
+        font-size: 35px;
+        line-height: 47px;
+        text-align: center;
+        width: 130%;
+    }
+
+    .paragraph-text {
+        text-align: center;
+        width: 124%;
+        padding-right: 0;
+    }
+
+    .cta {
+        top: 109%;
+    }
+
+    .sponsors {
+        width: 135%;
+        padding-top: 9%;
+    }
+
+    .form {
+        position: relative;
+        right: 4%;
+        width: 415px;
+    }
+
+    button {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        left: 34%;
+    }
+
+    .spotify,
+    .apple-podcast,
+    .google-podcasts,
+    .pocket-cast {
+        width: 86px;
+        padding-right: 4%;
+    }
+    
+    .pattern-dots {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 425px)
+{
+   .logo-container {
+        width: 10%;
+    }
+    
+    .pod-logo {
+        position: static;
+        padding-top: 62px;
+        width: 167.85px;
+    }
+    
+    .image-host {
+        right: -135px;
+    }
+    
+    .container {
+        width: 89%;
+        padding-left: 9%;
+    }
+
+    .form {
+        right: -3%;
+    }
+
+    button {
+        left: 41%;
+    }
+
+    .spotify,
+    .apple-podcast,
+    .google-podcasts,
+    .pocket-cast {
+        width: 100px;
+        padding-right: 3%;
+    }
+
+    .pocket-casts {
+        width: 129px;
+    }
+}
+
+@media only screen and (max-width: 375px)
+{
+    .logo-container {
+        width: 15%;
+    }
+    
+    .pod-logo {
+        position: static;
+        padding-top: 62px;
+        width: 167.85px;
+    }
+    
+    .container {
+        padding-left: 11%;
+    }
+
+    .form {
+        right: 3%;
+    }
+
+    button {
+        left: 34%;
+    }
+
+    .spotify,
+    .apple-podcast,
+    .google-podcasts,
+    .pocket-cast {
+        width: 82px;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{ 
+    .logo-container {
+        width: 0%;
+    }
+    
+    .pod-logo {
+        position: static;
+        padding-top: 62px;
+        width: 167.85px;
+    }
+    
+    .container {
+        width: 100%;
+        padding-left: 14%;
+    }
+
+    .form {
+        right: 4%;
+    }
+
+    button {
+        left: 33%;
+    }
+
+    .spotify,
+    .apple-podcast,
+    .google-podcasts,
+    .pocket-cast {
+        width: 77px;
+    }
+}
