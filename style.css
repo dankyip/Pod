@@ -1,4 +1,4 @@
- body {
+body {
     margin: 0;
     background-color: #121725;
     font-family: chivo;
@@ -53,7 +53,7 @@ span {
     padding-bottom: 50px;
 }
 
-.form {
+#form {
     width: 427px;
     height: 56px;
     font-family: chivo;
@@ -75,6 +75,15 @@ button {
     margin-left: -170px;
     height: 46px;
     width: 162px;
+    cursor: pointer;
+}
+
+.error-message {
+    color:#FB3E3E;
+    font-size: 12px;
+    line-height: 14px;
+    padding: 8px 0 0 32px;
+    position: absolute;
 }
 
 .pattern-dots {
@@ -202,7 +211,7 @@ button {
         position: absolute;
     }
 
-    .form {
+    #form {
         width: 400px;
     }
 
@@ -230,15 +239,15 @@ button {
     }
     
     .logo-container {
-        width: 35%;
+         width: 35%; 
         margin: 0 auto;
     }
     
     .pod-logo {
         position: static;
         padding-top: 62px;
-        width: 167.85px;
-    }
+        width: 167.85px; 
+    } 
     
     .image-host {
         height: 180%;
@@ -274,7 +283,7 @@ button {
         padding-top: 9%;
     }
 
-    .form {
+    #form {
         position: relative;
         right: 4%;
         width: 415px;
@@ -282,7 +291,7 @@ button {
 
     button {
         position: absolute;
-        top: 100%;
+        top: 95%;
         width: 100%;
         left: 34%;
     }
@@ -321,7 +330,7 @@ button {
         padding-left: 9%;
     }
 
-    .form {
+    #form {
         right: -3%;
     }
 
@@ -358,7 +367,7 @@ button {
         padding-left: 11%;
     }
 
-    .form {
+    #form {
         right: 3%;
     }
 
@@ -391,7 +400,7 @@ button {
         padding-left: 14%;
     }
 
-    .form {
+    #form {
         right: 4%;
     }
 
